@@ -38,6 +38,10 @@ body{
 }
 .header-main{
     background-color: transparent; /*prozrachniy*/
+    position: absolute;
+    z-index: 5;
+    right: 0;
+    left: 0;
 }
 .header__inner{
     padding-top: 40px;
@@ -105,6 +109,12 @@ margin-bottom: 52px;
 .top{
     color: white;
     text-align: center;
+    padding-bottom: 50px;
+    padding-top: 250px;
+    position: absolute;
+    z-index: 5;
+    right: 0;
+    left: 0;
 }
 .title{
     padding-top: 105px;
@@ -124,7 +134,11 @@ margin-bottom: 52px;
     margin-bottom: 25px;
 
 }
-.swiper {
-    width: 600px;
-    height: 300px;
+
+  .swiper-wrapper{
+    background: rgb(21, 21, 21, .3);
   }
+  .swiper-slider{
+     height: 100vh;
+  }
+  
