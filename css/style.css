@@ -18,6 +18,12 @@ a{
     text-decoration: none;
     color: inherit;
 }
+.section-title{
+  margin-bottom: 50px;
+  font-size: 48px;
+  font-weight: 700px;
+  text-align: center;  
+}
 .wrapper{
     min-width: 100%;
     flex-direction: column; /* для прижимаем футер*/  
@@ -132,9 +138,9 @@ main{
     font-size: 36px;
     font-weight: 700;
 }
-.swiper::after{
-    content: :' ';
-    background: rgba(21, 21, 21,.9);
+.swiper::after {
+    content: ' ';
+    background: rgba(21, 21, 21,.6);
     position: absolute;
     z-index:  5;
     right: 0;
@@ -158,4 +164,24 @@ opacity: 1;
     height: 6px;
     background-color: white;
 }
-  
+.why-us{
+    padding: 150px 0;
+}
+.why-us__list{
+ display: grid;
+ grid-template-columns:repeat(4, 1fr);
+ gap: 40px;
+ text-align: center;
+}
+.why-us__item-img{
+    margin-bottom: 30px;
+    border-radius: 50%;
+}
+.why-us__item-title{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+.why-us__item-text{
+    text-align: left;
+}
