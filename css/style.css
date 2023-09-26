@@ -103,7 +103,7 @@ margin-bottom: 52px;
     display: flex;
     justify-content: center;
 }
-.main{
+main{
     flex-grow: 1;
 }
 .top{
@@ -131,14 +131,31 @@ margin-bottom: 52px;
     text-transform: uppercase;
     font-size: 36px;
     font-weight: 700;
-    margin-bottom: 25px;
-
+}
+.swiper::after{
+    content: :' ';
+    background: rgba(21, 21, 21,.9);
+    position: absolute;
+    z-index:  5;
+    right: 0;
+    left: 0 ;
+    bottom:  0;
+    top:  0;
 }
 
-  .swiper-wrapper{
-    background: rgb(21, 21, 21, .3);
-  }
-  .swiper-slider{
-     height: 100vh;
-  }
+ .swiper-slide{
+    background-repeat: no-repeat;
+    background-position: center center;
+   height: 100vh;
+ }
+ .swiper-pagination-bullet{
+width: 120px;
+height: 3px;
+border-radius: 0;
+opacity: 1;
+ }
+.swiper-pagination-bullet-active{
+    height: 6px;
+    background-color: white;
+}
   
