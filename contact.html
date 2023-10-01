@@ -22,7 +22,7 @@
                 <nav class="menu">
                     <ul class="menu__list">
                         <li class="menu__list-item">
-                            <a class="menu__list-link" href="#">CATALOG</a>
+                            <a class="menu__list-link" href="catalog.html">CATALOG</a>
                         </li>
                         <li class="menu__list-item">
                             <a class="menu__list-link" href="#">SALE</a>
@@ -37,7 +37,7 @@
                             <a class="menu__list-link" href="#">FOR BODY</a>
                         </li>
                         <li class="menu__list-item">
-                            <a class="menu__list-link" href="#">CONTACT US</a>
+                            <a class="menu__list-link, menu__list-link--active" href="contact.html">CONTACT US</a>
                         </li>
                     </ul>
                 </nav>
@@ -47,13 +47,25 @@
     <div>
 </div>
     <main class="main">
-
+        <section class="contacts">
+            <div class="container">
+                <h2 class="section-title contacts__title">
+                    Contact Us 
+                </h2>
+                <p class="contats__text"> Мы строим нашу МАСТЕРСКУЮ,  где в скором времени сможем принять вас (в заранее оговоренное время)</p>
+            <form action="#" class="form">
+                <input type="Name" class="form__input" placeholder="Имя">
+                <input type="email" class="form__input" 
+                placeholder="email">
+                <textarea class="form__textarea" placeholder="Текст"></textarea>
+                <button class="form__btn" type="submit">
+                   SUBMIT 
+                </button>
+            </form>
+            </div> 
+        </section>
     </main>
     <footer class="footer">
-        
-    </footer>
-    </div>
-<footer>
  <div class="container">
     <nav class="footer__menu">
         <ul class="footer__menu-list">
@@ -131,5 +143,6 @@
     </nav>
  </div>
 </footer>
+</div>
 </body>
 </html>
