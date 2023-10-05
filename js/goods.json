@@ -1,0 +1,20 @@
+{
+    "1" : { 
+        "name" : "Soap1",
+        "cost" : 5,
+        "description" : "Подарочный набор",
+        "image" : "images/item1.jpeg"
+    },
+    "2" : {
+        "name" : "Soap2",
+        "cost" : 12,
+        "description" : "Подарочный набор",
+        "image" : "images/item1.jpeg"
+    },
+    "3" : {
+        "name" : "Soap3",
+        "cost" : 20,
+        "description" : "Подарочный набор",
+        "image" : "images/item1.jpeg"
+    }
+}

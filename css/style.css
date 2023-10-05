@@ -324,3 +324,42 @@ margin-bottom: 50px;
     padding: 13px 61px;
     margin: 0 auto;  /*флекс элемент могу сотцентровать его*/
 }
+.choose{
+    padding: 100px 0 150px;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap:100px 40px ;
+}
+.card{
+    text-align: center;
+}
+.card__img{
+    margin-bottom: 20px;
+    width: 250px;
+    height:250px;
+}
+.card__title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding: 0 5px;
+
+}
+.card__price{
+    padding: 0 5px;
+}
+.card__text{
+    padding: 0 5px;
+}
+.form__btn_catalog{
+    padding: 0 5px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-style: 23px;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+}
